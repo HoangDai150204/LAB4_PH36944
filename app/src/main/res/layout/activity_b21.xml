@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:padding="15dp"
+    tools:context=".B2_Activity1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Bạn muốn mua gì?"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/edtsp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập thứ cần mua"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="Sau khi nhấn nút gửi hãy đợi nhà bán hàng báo giá"/>
+
+    <Button
+        android:id="@+id/btngui"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Gửi"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:backgroundTint="#6200ee"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#2396f3"
+        android:layout_marginTop="70dp"
+        android:text="Giá sản phẩm là:" />
+
+    <TextView
+        android:id="@+id/txtgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#ff5c29"
+        android:layout_marginTop="10dp"
+        android:text="0"/>
+
+</LinearLayout>

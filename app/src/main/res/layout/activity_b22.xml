@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:padding="15dp"
+    tools:context=".B2_Activity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Thứ khách hàng cần mua là:"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/txtsp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#ff5c29"
+        android:layout_marginTop="10dp"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#2396f3"
+        android:layout_marginTop="70dp"
+        android:text="Hãy báo giá cho khách hàng" />
+
+    <EditText
+        android:id="@+id/edtgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hãy nhập giá"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btnbaogia"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Báo giá"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:backgroundTint="#6200ee"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+</LinearLayout>
